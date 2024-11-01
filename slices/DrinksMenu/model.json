@@ -65,6 +65,15 @@
             "placeholder": ""
           }
         },
+        "topdrinkdescriptionrichtext1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TopDrinkDescriptionRichText1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
         "topdrinktitle2": {
           "type": "StructuredText",
           "config": {
@@ -86,6 +95,15 @@
           "config": {
             "label": "TopDrinkDescription2",
             "placeholder": ""
+          }
+        },
+        "topdrinkdescriptionrichtext2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TopDrinkDescriptionRichText2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
         "topdrinktitle3": {
@@ -111,6 +129,15 @@
             "placeholder": ""
           }
         },
+        "topdrinkdescriptionrichtext3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TopDrinkDescriptionRichText3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
         "topdrinktitle4": {
           "type": "StructuredText",
           "config": {
@@ -132,6 +159,15 @@
           "config": {
             "label": "TopDrinkDescription4",
             "placeholder": ""
+          }
+        },
+        "topdrinkdescriptionrichtext4": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TopDrinkDescriptionRichText4",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
         "topdrinktitle5": {
@@ -157,6 +193,15 @@
             "placeholder": ""
           }
         },
+        "topdrinkdescriptionrichtext5": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TopDrinkDescriptionRichText5",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
         "topdrinktitle6": {
           "type": "StructuredText",
           "config": {
@@ -178,6 +223,15 @@
           "config": {
             "label": "TopDrinkDescription6",
             "placeholder": ""
+          }
+        },
+        "topdrinkdescriptionrichtext6": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TopDrinkDescriptionRichText6",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
         "topdrinktitle7": {
@@ -203,6 +257,15 @@
             "placeholder": ""
           }
         },
+        "topdrinkdescriptionrichtext7": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TopDrinkDescriptionRichText7",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
         "topdrinktitle8": {
           "type": "StructuredText",
           "config": {
@@ -224,6 +287,15 @@
           "config": {
             "label": "TopDrinkDescription8",
             "placeholder": ""
+          }
+        },
+        "topdrinkdescriptionrichtext8": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TopDrinkDescriptionRichText8",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
         "topdrinktitle9": {
@@ -249,6 +321,15 @@
             "placeholder": ""
           }
         },
+        "topdrinkdescriptionrichtext9": {
+          "type": "StructuredText",
+          "config": {
+            "label": "TopDrinkDescriptionRichText9",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
         "topdrinktitle10": {
           "type": "StructuredText",
           "config": {
@@ -272,27 +353,13 @@
             "placeholder": ""
           }
         },
-        "topdrinktitle11": {
+        "topdrinkdescriptionrichtext10": {
           "type": "StructuredText",
           "config": {
-            "label": "TopDrinkTitle11",
+            "label": "TopDrinkDescriptionRichText10",
             "placeholder": "",
             "allowTargetBlank": true,
-            "single": "heading3"
-          }
-        },
-        "topdrinkprice11": {
-          "type": "Text",
-          "config": {
-            "label": "TopDrinkPrice11",
-            "placeholder": ""
-          }
-        },
-        "topdrinkdescription11": {
-          "type": "Text",
-          "config": {
-            "label": "TopDrinkDescription11",
-            "placeholder": ""
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
         "btmdrinktitle1": {
@@ -318,6 +385,15 @@
             "placeholder": ""
           }
         },
+        "btmdrinkdescriptionrichtext1": {
+          "type": "StructuredText",
+          "config": {
+            "label": "BtmDrinkDescriptionRichText1",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
         "btmdrinktitle2": {
           "type": "StructuredText",
           "config": {
@@ -339,6 +415,15 @@
           "config": {
             "label": "BtmDrinkDescription2",
             "placeholder": ""
+          }
+        },
+        "btmdrinkdescriptionrichtext2": {
+          "type": "StructuredText",
+          "config": {
+            "label": "BtmDrinkDescriptionRichText2",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
         "btmdrinktitle3": {
@@ -364,6 +449,15 @@
             "placeholder": ""
           }
         },
+        "btmdrinkdescriptionrichtext3": {
+          "type": "StructuredText",
+          "config": {
+            "label": "BtmDrinkDescriptionRichText3",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
         "btmdrinktitle4": {
           "type": "StructuredText",
           "config": {
@@ -385,6 +479,15 @@
           "config": {
             "label": "BtmDrinkDescription4",
             "placeholder": ""
+          }
+        },
+        "btmdrinkdescriptionrichtext4": {
+          "type": "StructuredText",
+          "config": {
+            "label": "BtmDrinkDescriptionRichText4",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
         "btmdrinktitle5": {
@@ -410,6 +513,15 @@
             "placeholder": ""
           }
         },
+        "btmdrinkdescriptionrichtext5": {
+          "type": "StructuredText",
+          "config": {
+            "label": "BtmDrinkDescriptionRichText5",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
         "btmdrinktitle6": {
           "type": "StructuredText",
           "config": {
@@ -431,6 +543,15 @@
           "config": {
             "label": "BtmDrinkDescription6",
             "placeholder": ""
+          }
+        },
+        "btmdrinkdescriptionrichtext6": {
+          "type": "StructuredText",
+          "config": {
+            "label": "BtmDrinkDescriptionRichText6",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
         "btmdrinktitle7": {
@@ -456,6 +577,15 @@
             "placeholder": ""
           }
         },
+        "btmdrinkdescriptionrichtext7": {
+          "type": "StructuredText",
+          "config": {
+            "label": "BtmDrinkDescriptionRichText7",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
         "btmdrinktitle8": {
           "type": "StructuredText",
           "config": {
@@ -477,6 +607,15 @@
           "config": {
             "label": "BtmDrinkDescription8",
             "placeholder": ""
+          }
+        },
+        "btmdrinkdescriptionrichtext8": {
+          "type": "StructuredText",
+          "config": {
+            "label": "BtmDrinkDescriptionRichText8",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
         "btmdrinktitle9": {
@@ -502,6 +641,15 @@
             "placeholder": ""
           }
         },
+        "btmdrinkdescriptionrichtext9": {
+          "type": "StructuredText",
+          "config": {
+            "label": "BtmDrinkDescriptionRichText9",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
         "btmdrinktitle10": {
           "type": "StructuredText",
           "config": {
@@ -525,96 +673,13 @@
             "placeholder": ""
           }
         },
-        "btmdrinktitle11": {
+        "btmdrinkdescriptionrichtext10": {
           "type": "StructuredText",
           "config": {
-            "label": "BtmDrinkTitle11",
+            "label": "BtmDrinkDescriptionRichText10",
             "placeholder": "",
             "allowTargetBlank": true,
-            "single": "heading3"
-          }
-        },
-        "btmdrinkprice11": {
-          "type": "Text",
-          "config": {
-            "label": "BtmDrinkPrice11",
-            "placeholder": ""
-          }
-        },
-        "btmdrinkdescription11": {
-          "type": "Text",
-          "config": {
-            "label": "BtmDrinkDescription11",
-            "placeholder": ""
-          }
-        },
-        "btmdrinktitle12": {
-          "type": "StructuredText",
-          "config": {
-            "label": "BtmDrinkTitle12",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "single": "heading3"
-          }
-        },
-        "btmdrinkprice12": {
-          "type": "Text",
-          "config": {
-            "label": "BtmDrinkPrice12",
-            "placeholder": ""
-          }
-        },
-        "btmdrinkdescription12": {
-          "type": "Text",
-          "config": {
-            "label": "BtmDrinkDescription12",
-            "placeholder": ""
-          }
-        },
-        "btmdrinktitle13": {
-          "type": "StructuredText",
-          "config": {
-            "label": "BtmDrinkTitle13",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "single": "heading3"
-          }
-        },
-        "btmdrinkprice13": {
-          "type": "Text",
-          "config": {
-            "label": "BtmDrinkPrice13",
-            "placeholder": ""
-          }
-        },
-        "btmdrinkdescription13": {
-          "type": "Text",
-          "config": {
-            "label": "BtmDrinkDescription13",
-            "placeholder": ""
-          }
-        },
-        "btmdrinktitle14": {
-          "type": "StructuredText",
-          "config": {
-            "label": "BtmDrinkTitle14",
-            "placeholder": "",
-            "allowTargetBlank": true,
-            "single": "heading3"
-          }
-        },
-        "btmdrinkprice14": {
-          "type": "Text",
-          "config": {
-            "label": "BtmDrinkPrice14",
-            "placeholder": ""
-          }
-        },
-        "btmdrinkdescription14": {
-          "type": "Text",
-          "config": {
-            "label": "BtmDrinkDescription14",
-            "placeholder": ""
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         },
         "instruction": {
@@ -647,6 +712,15 @@
           "config": {
             "label": "Description",
             "placeholder": ""
+          }
+        },
+        "descriptionrichtext": {
+          "type": "StructuredText",
+          "config": {
+            "label": "DescriptionRichText",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
       },

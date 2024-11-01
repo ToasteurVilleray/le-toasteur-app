@@ -84,7 +84,7 @@
             "label": "Description",
             "placeholder": "",
             "allowTargetBlank": true,
-            "single": "paragraph,strong,em,list-item,o-list-item,hyperlink,image,embed,heading6,heading5"
+            "single": "paragraph,preformatted,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
           }
         }
       },
