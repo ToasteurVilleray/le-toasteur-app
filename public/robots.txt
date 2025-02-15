@@ -1,7 +1,7 @@
 # *
 User-agent: *
 Disallow: /reservations
-
+Noindex: /reservations
 # *
 User-agent: *
 Allow: /
@@ -11,3 +11,4 @@ Host: https://letoasteur.com/
 
 # Sitemaps
 Sitemap: https://letoasteur.com/sitemap.xml
+
