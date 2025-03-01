@@ -17,7 +17,7 @@ const BlogHome = (props) => {
 
   return (
     <Layout alternateLanguages={page.alternate_languages}>
-      <BlogModal />
+      {/* <BlogModal /> */}
       <Head>
         <title>{metaTitle}</title>
         <meta name="description" content={metaDescription} key="desc" />

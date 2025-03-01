@@ -12,20 +12,26 @@ const Reservations = ({ isAuthenticated: initialAuthStatus, locale }) => {
   // Define language content based on locale
   const content = {
     'fr': {
+      description:"Réservations disponibles pour voisins corporatifs uniquement du Toasteur. si vous voulez y avoir accès vous présenter au restaurant ou contacter nous.",
       connection: 'Connexion',
       usernameLabel: 'Utilisateur',
       passwordLabel: 'Mot de passe',
       loginButton: 'Se connecter',
       wrongCredentials: 'Ce ne sont pas les bons identifiants',
-      placeholderUser: 'nom utilisateur'
+      placeholderUser: 'Nom utilisateur',
+      placeholderPwd: 'Votre mot de passe'
+
     },
     'en-ca': {
+      description:"Reservations available for Toasteur's corporate neighbors only. If you wish to have access, please come to the restaurant or contact us.",
       connection: 'Connection',
       usernameLabel: 'User',
       passwordLabel: 'Password',
       loginButton: 'Log in',
       wrongCredentials: 'These are the wrong identifiers',
-      placeholderUser: 'username'
+      placeholderUser: 'Username',
+      placeholderPwd: 'Your password'
+
     }
   };
 
@@ -75,12 +81,13 @@ const Reservations = ({ isAuthenticated: initialAuthStatus, locale }) => {
 
   if (!isAuthenticated) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-slate-100">
-        <div className="p-16 bg-white shadow-lg rounded-md w-full max-w-3xl">
+      <div className="flex items-center justify-center min-h-screen bg-[#041e42] flex-col max-sm:px-7">
+      <p className='text-white my-10 mb-20 text-wrap max-sm:mx-4 text-center'>  {currentContent.description}</p>
+        <div className="p-16 bg-white shadow-lg rounded-md w-full max-w-3xl max-sm:p-10  ">
           <h2 className="mb-8 text-2xl font-semibold text-gray-800 text-center">
             {currentContent.connection}
           </h2>
-          <form onSubmit={handleLogin} className="space-y-10">
+          <form onSubmit={handleLogin} className="space-y-10 ">
             <div>
               <label className="block mb-3 text-lg font-medium text-gray-700">
                 {currentContent.usernameLabel}
@@ -101,6 +108,8 @@ const Reservations = ({ isAuthenticated: initialAuthStatus, locale }) => {
               <input
                 type="password"
                 value={password}
+                placeholder={currentContent.placeholderPwd}
+
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500"
                 required
