@@ -11,8 +11,6 @@ const Page = (props) => {
   const router = useRouter();
   const currentRoute = router.pathname;
   const { metaTitle, metaDescription, ogImage, ogImageAlt, page } = props;
-  // console.log('alternante through page:', page);
-  // console.log(page.url);
   const canonicalUrl = `https://letoasteur.com${page.url}`;
 
   return (
